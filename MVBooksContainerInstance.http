@@ -1,0 +1,11 @@
+@MVBooksContainerInstance_HostAddress = http://localhost:32777
+
+GET {{MVBooksContainerInstance_HostAddress}}/books/
+Accept: application/json
+
+###
+
+GET {{MVBooksContainerInstance_HostAddress}}/books/15?q=9
+Accept: application/json
+
+###
